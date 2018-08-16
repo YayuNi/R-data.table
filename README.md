@@ -151,7 +151,7 @@ dt3[, .(average_V2=mean(V2)), by=V3]
 # 4:  D   -0.74600
 
 # 创建新的data.table
-dt4 = data.table(V1=c("张三", "李四", "王五"), V2=round(rnorm(6), 4), V3=LETTERS[1:2])
+dt4 = data.table(V1=c("张三", "李四", "王五"), V2=round(rnorm(12), 4), V3=LETTERS[1:2])
 dt4
 #       V1      V2 V3
 #  1: 张三 -0.5014  A
